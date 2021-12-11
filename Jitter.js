@@ -4,10 +4,10 @@ class Jitter {
     this.y = random(height);
     this.diameter = random(3, 10);
     this.speed = 0.5;
-    this.c1 = random(0,255);
-    this.c2 = random(0,255);
-    this.c3 = random(0,255);
-    this.a = random(0,255);
+    this.r = random(178,250);
+    this.g = random(216,248);
+    this.b = random(94,250);
+    this.a = random(10,255);
   }
 
   move() {
@@ -17,7 +17,7 @@ class Jitter {
 
   display() {
     noStroke();
-    fill(this.c1, this.c2, this.c3,this.a); 
+    fill(this.r, this.g, this.b,this.a);
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
 }
