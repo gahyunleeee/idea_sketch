@@ -7,7 +7,7 @@ class Jitter {
     //this.r = random(178,250);
     //this.g = random(216,248);
     //this.b = random(94,250);
-    this.colors = [color('#52A7FA'),color('#FA5E51'),color('#EFF1F8')];
+    this.colors = [color('#5F89FA'),color('#C2DFFA'),color('#FA5E51'),color('#FFFFFF'),color('#FAB387'),color('#FAEBB2')];
     this.mycolor = random(this.colors);
     this.a = random(10,255);
   }
