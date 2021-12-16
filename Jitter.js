@@ -2,7 +2,7 @@ class Jitter {
   constructor() {
     this.x = random(width);
     this.y = random(height);
-    this.diameter = random(3, 10);
+    this.diameter = random(1, 5);
     this.speed = 0.5;
     //this.r = random(178,250);
     //this.g = random(216,248);
