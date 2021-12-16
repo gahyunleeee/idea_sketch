@@ -2,7 +2,7 @@
 let bugs = []; // Jitter 객체들의 배열
 
 function setup() {
-  createCanvas(710, 710);
+  createCanvas(1200, 600);
   for (let i = 0; i < 100; i++) {
     bugs.push(new Jitter());
   }
