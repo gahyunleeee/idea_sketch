@@ -1,7 +1,7 @@
 class gravity {
   constructor () {
-    this.ww = mouseX ; //random(width);
-    this.hh = mouseY ;  //random(height);
+    this.ww = this.mouseX ; //random(width);
+    this.hh = this.mouseY ;  //random(height);
     this.pos = createVector(this.ww, this.hh);
     this.vel = createVector();
 
