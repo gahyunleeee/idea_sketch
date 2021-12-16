@@ -4,8 +4,17 @@ html, body {
   color: lightgrey;
   padding: 0;
   background-color: black;
+  font-family: 'Cafe24Simplehae';
+
 }
 canvas {
   margin: auto;
   display: block;
+}
+
+@font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
