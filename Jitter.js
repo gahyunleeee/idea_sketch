@@ -18,6 +18,7 @@ class Jitter {
   }
 
   display() {
+
     noStroke();
     fill(this.mycolor);
     //fill(this.r, this.g, this.b,this.a);
