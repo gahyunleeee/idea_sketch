@@ -21,6 +21,7 @@ class Jitter {
 
     noStroke();
     fill(this.mycolor);
+
     //fill(this.r, this.g, this.b,this.a);
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
